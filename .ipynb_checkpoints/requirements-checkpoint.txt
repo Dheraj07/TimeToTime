@@ -8,3 +8,4 @@ prophet==1.1.7
 xgboost==2.1.4
 scikit-learn==1.6.1
 yfinance==0.2.65
+pystan==2.19.1.1
