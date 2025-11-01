@@ -8,6 +8,7 @@ pandas==2.3.0
 scikit-learn==1.6.1
 xgboost==2.1.4
 gunicorn==23.0.0
+vaderSentiment==3.3.2
 
 # Prophet (this INCLUDES Prophet, just with cmdstanpy backend instead of pystan)
 cmdstanpy==1.2.4
