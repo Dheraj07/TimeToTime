@@ -1,0 +1,10 @@
+Flask==3.0.0
+gunicorn==21.2.0
+vaderSentiment==3.3.2
+pandas==2.2.2
+numpy==1.26.4
+requests==2.32.3
+prophet==1.1.5
+xgboost==2.1.1
+scikit-learn==1.5.2
+yfinance==0.2.44
