@@ -1,6 +1,5 @@
 # Core dependencies first
 numpy==1.26.4
-Cython==3.0.10
 
 # Flask and app dependencies
 Flask==3.1.1
@@ -10,7 +9,6 @@ scikit-learn==1.6.1
 xgboost==2.1.4
 gunicorn==23.0.0
 
-# Prophet and dependencies
-pystan==2.19.1.1
-cmdstanpy==1.1.0
-prophet==1.1.7
+# Prophet (this INCLUDES Prophet, just with cmdstanpy backend instead of pystan)
+cmdstanpy==1.2.4
+prophet==1.1.6
