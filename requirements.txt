@@ -1,11 +1,16 @@
-Flask==3.1.1
-gunicorn==23.0.0
-vaderSentiment==3.3.2
-pandas==2.3.0
+# Core dependencies first
 numpy==1.26.4
-requests==2.32.3
-prophet==1.1.7
-xgboost==2.1.4
-scikit-learn==1.6.1
+Cython==3.0.10
+
+# Flask and app dependencies
+Flask==3.1.1
 yfinance==0.2.65
+pandas==2.3.0
+scikit-learn==1.6.1
+xgboost==2.1.4
+gunicorn==23.0.0
+
+# Prophet and dependencies
 pystan==2.19.1.1
+cmdstanpy==1.1.0
+prophet==1.1.7
