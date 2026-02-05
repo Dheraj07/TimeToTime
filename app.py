@@ -23,6 +23,9 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return render_template("index2.html")
+@app.route("/health")
+def health():
+    return "App is running"
 
 def fetch_news_texts(query, from_date, to_date, api_key, page_size=100):
     url = "https://newsapi.org/v2/everything"
